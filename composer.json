@@ -85,6 +85,7 @@
     "require-dev": {
         "drupal/admin_toolbar": "^3.0",
         "drupal/devel": "^4.1",
+        "drupal/yaml_sandbox": "1.x-dev",
         "drush/drush": "^10.4"
     }
 }

@@ -45,6 +45,7 @@ module:
   user: 0
   views_ui: 0
   webprofiler: 0
+  yaml_sandbox: 0
   views: 10
   standard: 1000
 theme:

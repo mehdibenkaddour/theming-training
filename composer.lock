@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86c0679a94330ac2f87bac21f9688288",
+    "content-hash": "e8f2e4c66befb09687b0f5ad431314ce",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5194,6 +5194,47 @@
             }
         },
         {
+            "name": "drupal/yaml_sandbox",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/yaml_sandbox.git",
+                "reference": "ba75cda042a44c3cf17f4bb307c447e8bf6f1fff"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1491236583",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "eojthebrave",
+                    "homepage": "https://www.drupal.org/user/79230"
+                }
+            ],
+            "description": "Parse YAML into PHP and display the results.",
+            "homepage": "https://www.drupal.org/project/yaml_sandbox",
+            "support": {
+                "source": "https://git.drupalcode.org/project/yaml_sandbox"
+            }
+        },
+        {
             "name": "drush/drush",
             "version": "10.4.2",
             "source": {
@@ -6164,7 +6205,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/yaml_sandbox": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
