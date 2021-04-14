@@ -1,0 +1,8 @@
+.jumbotron {
+    background: #999;
+    border: 1px solid #666;
+    padding: 1em;
+  }
+p {
+    color: rgb(233, 35, 35);
+}

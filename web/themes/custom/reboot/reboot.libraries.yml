@@ -1,0 +1,13 @@
+bootstrap:
+  version: 5.0.0
+  css:
+    theme:
+      asserts/css/bootstrap.min.css: {}
+  js:
+    asserts/js/bootstrap.min.js: {}
+
+global:
+  version: 1.0
+  css:
+    theme:
+      asserts/css/global.css: {}

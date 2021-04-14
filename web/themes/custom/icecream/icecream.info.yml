@@ -1,6 +1,9 @@
 # THEMENAME.info.yml file for Ice Cream example theme.
 name: Ice Cream
 type: theme
+libraries:
+  - icecream/retro
+  - icecream/rainbow
 base theme: bartik
 description: 'A great theme for warm summer days'
 package: custom
